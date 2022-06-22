@@ -20,8 +20,8 @@ jobs:
         aws-region: us-east-2
 
     - name: Deploy static site to S3 bucket-1
-      run: aws s3 sync . s3://chkmtstatic.tk --delete
+      run: aws s3 sync . s3://chkmtqglobal.tk --delete
     
     - name: Deploy static site to S3 bucket-2
-      run: aws s3 sync . s3://www.chkmtstatic.tk --delete
+      run: aws s3 sync . s3://www.chkmtqglobal.tk --delete
 
